@@ -5,10 +5,10 @@ namespace BDSA2020.Assignment03.Tests
 {
     public class QueriesTests
     {
-        [Fact]
-        public void Test1()
-        {
-
-        }
+        // [Fact]
+        // public void Test1()
+        // {
+        //
+        // }
     }
 }
