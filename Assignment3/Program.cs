@@ -7,7 +7,7 @@ namespace Assignment3
 {
     class Program
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             int[] ys = {1600, 1700, 1900, 2000};
             var leapYears = ys.Where(y => DateTime.IsLeapYear(y));
