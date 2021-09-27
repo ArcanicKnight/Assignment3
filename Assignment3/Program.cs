@@ -2,19 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using BDSA2020.Assignment03;
 
 namespace Assignment3
 {
     class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
-            int[] ys = {1600, 1700, 1900, 2000};
-            var leapYears = ys.Where(y => DateTime.IsLeapYear(y));
-            foreach (var y in leapYears)
+            var q = new Queries();
+
+            foreach (var v in q.ReverseWizard())
             {
-                Console.WriteLine(y);
+                Console.WriteLine(v);
             }
+            
         }
     }
 }

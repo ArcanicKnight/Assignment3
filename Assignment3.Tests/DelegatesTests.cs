@@ -58,7 +58,7 @@ namespace BDSA2020.Assignment03.Tests
 
         [Theory]
         [InlineData("0056",56,true)]
-        [InlineData("00009090",9090,true)]
+        [InlineData("009090",9090,true)]
         [InlineData("32,56",32.56,true)]
         [InlineData("10",5,false)]
         public void Delegates_TestEqual_ReturnTrueOrFalse(string s, decimal n, bool expected)
